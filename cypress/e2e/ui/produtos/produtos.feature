@@ -1,3 +1,4 @@
+# language: en
 Feature: Product Registration and Listing on ServeRest
 
   Background: Be authenticated in the system as an administrator

@@ -1,3 +1,4 @@
+# language: en
 Feature: Authentication and Registration on ServeRest
   As a system user
   I want to be able to register and log in
