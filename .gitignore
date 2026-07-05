@@ -1,0 +1,10 @@
+node_modules/
+cypress.env.json
+cypress/videos/
+cypress/screenshots/
+cypress/reports/
+.run/
+.DS_Store
+.vscode/
+.idea/
+npm-debug.log*
