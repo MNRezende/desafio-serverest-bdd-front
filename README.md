@@ -62,3 +62,20 @@ Antes de começar, certifique-se de ter instalado em sua máquina:
 - Node.js (versão 18 ou superior recomendada)
 - Git
 
+1. Clonar o Repositório
+- https://github.com/MNRezende/desafio-serverest-bdd-front.git
+
+2. Instalar as Dependências
+Instale todas as bibliotecas necessárias declaradas no package.json:
+- npm install
+
+Executar os Testes em Modo Headless (Terminal)
+Para rodar toda a bateria de testes de forma automatizada e limpa pelo terminal, execute:
+- npm run cy:run:ui
+
+4. Executar via Cypress Test Runner (Interface Gráfica)
+Caso queira abrir a interface visual do Cypress para acompanhar a execução passo a passo ou debugar os cenários:
+- npx cypress open
+Após abrir, selecione E2E Testing, escolha o navegador de preferência (ex: Chrome) e clique na especificação desejada.
+
+Desenvolvido com foco em qualidade e engenharia de software de alta performance. 🚀
